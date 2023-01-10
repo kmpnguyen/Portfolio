@@ -305,7 +305,6 @@ ul#play-list li {
 @media screen and (max-width: 768px) {
   body {
     overflow: hidden;
-    /* background-color: blue; */
   }
 
   #play {
@@ -317,7 +316,7 @@ ul#play-list li {
     position: fixed;
     z-index: 3;
     position: fixed;
-    font-size: 25vw;
+    font-size: 5vw;
     top: 15px;
     left: 15px;
     margin: 0;
