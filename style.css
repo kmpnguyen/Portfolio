@@ -313,10 +313,10 @@ ul#play-list li {
 
   #mobile-info-section {
     display: block;
-    position: relative;
+    position: fixed;
     z-index: 3;
     font-size: 5vw;
-    top: 20px;
+    top: 115px;
     left: 15px;
     padding-left: 15px;
     margin-left: 15px;
