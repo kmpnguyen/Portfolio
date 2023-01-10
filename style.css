@@ -329,9 +329,9 @@ ul#play-list li {
 
   #menu {
     display: block;
-    bottom: 0px;
+    bottom: 200px;
     background: #d9d9d9;
-    position: absolute;
+    position: fixed;
   }
 
   #rectangle {
