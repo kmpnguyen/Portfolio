@@ -302,7 +302,7 @@ ul#play-list li {
   display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   body {
     overflow: hidden;
   }
@@ -310,14 +310,6 @@ ul#play-list li {
   #play {
     display: none;
   }
-
-  /* #rotate-icon {
-    display: block;
-  } */
-
-  /* #close-icon {
-    width: 10px;
-  } */
 
   #mobile-info-section {
     display: block;
