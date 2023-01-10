@@ -315,7 +315,6 @@ ul#play-list li {
     display: block;
     position: fixed;
     z-index: 3;
-    position: fixed;
     font-size: 5vw;
     top: 155px;
     left: 15px;
