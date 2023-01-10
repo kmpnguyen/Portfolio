@@ -46,7 +46,6 @@ body {
   align-items: center;
 }
 
-.cursor0,
 .cursor1,
 .cursor2,
 .cursor3,
@@ -58,7 +57,6 @@ body {
   display: none;
 }
 
-div:hover > .cursor0,
 div:hover > .cursor1,
 div:hover > .cursor2,
 div:hover > .cursor3,
