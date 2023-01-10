@@ -13,6 +13,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap"
     />
+    <script src="https://openprocessing.org/openprocessing_sketch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
     <title>Khe Nguyen</title>
   </head>
 
@@ -40,6 +43,13 @@
           <div id="project">
             <span id="project-expand">Selected Project [+]</span>
             <ul id="project-list" class="hidden">
+              <li
+                id="menu-favicon"
+                class="favicon-hover"
+                onclick="topFunction()"
+              >
+                Favi*cam<sup>(0)</sup>
+              </li>
               <li id="menu-fpdb" class="menu-hover" onclick="topFunction()">
                 FPDB Rebrand<sup>(1)</sup>
               </li>
@@ -65,9 +75,9 @@
               >
                 HIV: Love is Hard<sup>(7)</sup>
               </li>
-              <li id="menu-blank" class="menu-hover" onclick="topFunction()">
+              <!-- <li id="menu-blank" class="menu-hover" onclick="topFunction()">
                 Blank Carnival<sup>(8)</sup>
-              </li>
+              </li> -->
               <!-- <li id="menu-blank">BLANK Carnival<sup>(9)</sup></li> -->
             </ul>
           </div>
@@ -104,6 +114,14 @@
         <div id="play-section">
           <div id="play-1">
             <div class="play-gap"><br /><br /><br /></div>
+            <div class="img-favicon playImage0">
+              <img src="img/favicon.png" alt="Favicam" width="100%" />
+              <div class="cursor0" style="white-space: nowrap">
+                <span class="triangle-cursor"></span>Favicam
+                <sup>(Creative Coding)</sup>
+              </div>
+            </div>
+
             <div class="img-fpdb playImage1">
               <img src="img/fpdb.jpg" alt="FPDB" width="100%" />
               <div class="cursor1" style="white-space: nowrap">
@@ -172,14 +190,14 @@
               </div>
             </div>
 
-            <div class="img-blank playImage8">
+            <!-- <div class="img-blank playImage8">
               <img src="img/blank.png" alt="Blank Carnival" width="100%" />
               <div class="cursor8" style="white-space: nowrap">
                 <span class="triangle-cursor"></span>Blank Summer Carnival<sup
                   >(Illustration)</sup
                 >
               </div>
-            </div>
+            </div> -->
             <div class="play-gap"><br /><br /><br /><br /><br /><br /></div>
           </div>
           <div id="play-2"></div>
@@ -189,6 +207,22 @@
 
         <!-- Work -->
         <div id="work">
+          <!-- Favicom -->
+          <div id="favicon-section" class="hidden">
+            <img
+              class="work-img"
+              src="img/favicon.gif"
+            />
+            <div class="work-text">
+            If you think of it, favicon - a website tab icon - is a mini canvas on your computer screen. As a blank canvas, there are rooms for creativity. Yet most websites only use it to hold static icon. Favicam is a personal project pushing limitation of favicon and what can be put in the computer smallest canvas.
+            <br /><br />&lt;&lt;&lt;
+            <a style="text-decoration: underline"
+            target="_blank"
+            href="https://favicam.netlify.app/">Click here to explore Favicam</a>&gt;&gt;&gt;
+            </p>
+            </div>
+          </div>
+
           <!-- FPDB -->
           <div id="fpdb-section" class="hidden">
             <img
@@ -717,7 +751,7 @@
           </div>
 
           <!-- Blank Summer -->
-          <div id="blank-section" class="hidden">
+          <!-- <div id="blank-section" class="hidden">
             <img class="work-img" src="img/blank1.gif" />
             <div class="work-text">
               Summer campaign for one of the world's highest lounges. Round and
@@ -752,7 +786,7 @@
               Client: Blank Saigon
             </div>
             <div class="mobile-gap"><br /><br /><br /><br /></div>
-          </div>
+          </div> -->
         </div>
 
         <!-- End -->

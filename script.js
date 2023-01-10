@@ -32,6 +32,7 @@ document.getElementById("contact-expand").addEventListener("click", (e) => {
 
 // Show work
 const work = [
+  "favicon",
   "fpdb",
   "helpscan",
   "choice",
@@ -39,7 +40,7 @@ const work = [
   "mooncake",
   "xmass",
   "loveishard",
-  "blank",
+  // "blank"
 ];
 work.forEach((item) => {
   // Open text menu
@@ -115,7 +116,7 @@ work.forEach((item) => {
 });
 
 // Cursor
-const allCursor = [1, 2, 3, 4, 5, 6, 7, 8];
+const allCursor = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 allCursor.forEach((item) => {
   document
     .querySelector(".playImage" + item)
