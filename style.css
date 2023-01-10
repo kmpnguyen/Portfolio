@@ -331,7 +331,7 @@ ul#play-list li {
     display: block;
     bottom: 0px;
     background: #d9d9d9;
-    position: fixed;
+    position: absolute;
   }
 
   #rectangle {
