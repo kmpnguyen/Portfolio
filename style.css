@@ -9,6 +9,7 @@
 }
 
 body {
+  padding-bottom: env(safe-area-inset-bottom);
   font-family: "Xanh Mono", monospace;
   font-style: normal;
   /* font-size: 1.7vw; */
@@ -35,7 +36,6 @@ body {
   overflow: scroll;
   scroll-behavior: smooth;
   height: 100vh;
-  min-height: -webkit-fill-available;
   flex: 8 0 0%;
 }
 
@@ -309,7 +309,6 @@ ul#play-list li {
     overflow: hidden;
     /* padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
       env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px); */
-    padding: 0em 0em calc(1em + env(safe-area-inset-bottom));
   }
 
   #play {
