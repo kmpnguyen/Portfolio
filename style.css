@@ -320,7 +320,7 @@ ul#play-list li {
     position: fixed;
     top: 15px;
     right: 15px;
-    width: 4.5rem;
+    width: 4rem;
     z-index: 10;
   }
 
@@ -356,7 +356,7 @@ ul#play-list li {
   }
 
   .show-mobile-menu {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
   }
 
   #info-section {
