@@ -90,11 +90,6 @@ work.forEach((item) => {
           .children[i].classList.remove("active-work");
       }
     });
-
-    // if (project.classList.contains("active")) {
-    //   project.classList.toggle("hidden");
-    //   projectList.innerHTML = "Selected Project [+]";
-    // }
   };
 
   // Open image slide
