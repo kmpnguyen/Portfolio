@@ -2,8 +2,15 @@ const projectList = document.getElementById("project-expand");
 const contactList = document.getElementById("contact-expand");
 const contact = document.getElementById("contact-list");
 const project = document.getElementById("project-list");
+const mobileMenuIcon = document.getElementById("mobile-menu-icon");
+const infoSection = document.getElementById("info-section");
 
 // Introduction content
+mobileMenuIcon.addEventListener("click", (e) => {
+  infoSection.classList.toggle("show-mobile-menu");
+  console.log("print");
+});
+
 document.getElementById("project-expand").addEventListener("click", (e) => {
   project.classList.toggle("active");
   project.classList.toggle("hidden");

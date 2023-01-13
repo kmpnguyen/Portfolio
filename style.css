@@ -35,7 +35,7 @@ body {
   position: relative;
   overflow: scroll;
   scroll-behavior: smooth;
-  /* height: 100vh; */
+  height: 100vh;
   flex: 8 0 0%;
 }
 
@@ -304,11 +304,24 @@ ul#play-list li {
   display: none;
 }
 
+#mobile-menu-icon {
+  display: none;
+}
+
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     overflow: hidden;
     /* padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
       env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px); */
+  }
+
+  #mobile-menu-icon {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    width: 4rem;
+    z-index: 10;
   }
 
   #play {
@@ -342,6 +355,10 @@ ul#play-list li {
     background-color: #d9d9d9;
   }
 
+  .show-mobile-menu {
+    transform: translateY(-100px);
+  }
+
   #info-section {
     position: fixed;
     bottom: 0;
@@ -361,7 +378,7 @@ ul#play-list li {
     left: -15px;
     background: #d9d9d9;
     width: 110%;
-    height: 97px;
+    height: 150px;
     filter: blur(7px);
   }
 
