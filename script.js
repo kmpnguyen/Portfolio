@@ -6,9 +6,9 @@ const mobileMenuIcon = document.getElementById("mobile-menu-icon");
 const infoSection = document.getElementById("info-section");
 
 // Introduction content
-// mobileMenuIcon.addEventListener("click", (e) => {
-//   infoSection.classList.toggle("show-mobile-menu");
-// });
+mobileMenuIcon.addEventListener("click", (e) => {
+  infoSection.classList.toggle("show-mobile-menu");
+});
 
 document.getElementById("project-expand").addEventListener("click", (e) => {
   project.classList.toggle("active");

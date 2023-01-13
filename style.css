@@ -308,10 +308,6 @@ ul#play-list li {
   display: none;
 }
 
-.show-mobile-menu {
-  display: none;
-}
-
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     overflow: hidden;
@@ -360,7 +356,6 @@ ul#play-list li {
   }
 
   .show-mobile-menu {
-    display: block;
     transform: translateY(-200px);
   }
 
