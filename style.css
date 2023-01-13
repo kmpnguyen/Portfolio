@@ -9,7 +9,6 @@
 }
 
 body {
-  min-height: -webkit-fill-available;
   font-family: "Xanh Mono", monospace;
   font-style: normal;
   /* font-size: 1.7vw; */
@@ -307,8 +306,9 @@ ul#play-list li {
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
   body {
     overflow: hidden;
-    padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
-      env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
+    /* padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+      env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px); */
+    padding: 1em 1em calc(1em + env(safe-area-inset-bottom));
   }
 
   #play {
