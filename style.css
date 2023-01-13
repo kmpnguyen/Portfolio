@@ -356,7 +356,7 @@ ul#play-list li {
   }
 
   .show-mobile-menu {
-    transform: translateY(-150px);
+    transform: translateY(-100px);
   }
 
   #info-section {
