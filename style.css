@@ -308,7 +308,7 @@ ul#play-list li {
     overflow: hidden;
     /* padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
       env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px); */
-    padding: 0em 1em calc(1em + env(safe-area-inset-bottom));
+    padding: 0em 0em calc(1em + env(safe-area-inset-bottom));
   }
 
   #play {
