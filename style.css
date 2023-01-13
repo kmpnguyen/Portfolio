@@ -34,7 +34,7 @@ body {
   position: relative;
   overflow: scroll;
   scroll-behavior: smooth;
-  height: 90vh;
+  height: 100vh;
   flex: 8 0 0%;
 }
 
@@ -304,12 +304,13 @@ ul#play-list li {
 }
 
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
-  @supports (-webkit-touch-callout: none) {
+  /* @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */
-  }
+  } */
 
   body {
     overflow: hidden;
+    min-height: -webkit-fill-available;
     padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
       env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
   }
