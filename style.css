@@ -34,7 +34,7 @@ body {
   position: relative;
   overflow: scroll;
   scroll-behavior: smooth;
-  height: 50vh;
+  height: 90vh;
   flex: 8 0 0%;
 }
 
