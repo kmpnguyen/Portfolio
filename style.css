@@ -318,7 +318,7 @@ ul#play-list li {
   #mobile-menu-icon {
     display: block;
     position: fixed;
-    top: 10px;
+    top: 15px;
     right: 15px;
     width: 4rem;
     z-index: 10;
@@ -378,7 +378,7 @@ ul#play-list li {
     left: -15px;
     background: #d9d9d9;
     width: 110%;
-    height: 150px;
+    height: 180px;
     filter: blur(7px);
   }
 
