@@ -9,6 +9,7 @@
 }
 
 body {
+  min-height: -webkit-fill-available;
   font-family: "Xanh Mono", monospace;
   font-style: normal;
   /* font-size: 1.7vw; */
@@ -310,7 +311,6 @@ ul#play-list li {
 
   body {
     overflow: hidden;
-    min-height: -webkit-fill-available;
     padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
       env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
   }
