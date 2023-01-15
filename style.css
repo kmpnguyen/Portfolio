@@ -355,9 +355,9 @@ ul#play-list li {
     background-color: #d9d9d9;
   }
 
-  .show-mobile-menu {
+  /* .show-mobile-menu {
     transform: translateY(-100px);
-  }
+  } */
 
   #info-section {
     position: fixed;
@@ -378,7 +378,8 @@ ul#play-list li {
     left: -15px;
     background: #d9d9d9;
     width: 110%;
-    height: 160px;
+    /* height: 160px; */
+    height: 30px;
     filter: blur(7px);
   }
 
