@@ -355,19 +355,23 @@ ul#play-list li {
     background-color: #d9d9d9;
   }
 
+  #info-section {
+    display: none;
+  }
+
   /* .show-mobile-menu {
     transform: translateY(-100px);
   } */
 
-  #info-section {
+  /* #info-section {
     position: fixed;
     bottom: 0;
     z-index: 10;
     flex: none;
     width: 100%;
     font-size: 5vw;
-  }
-  #info-blur-background {
+  } */
+  /* #info-blur-background {
     display: none;
   }
   #mobile-info-blur-background {
@@ -378,10 +382,9 @@ ul#play-list li {
     left: -15px;
     background: #d9d9d9;
     width: 110%;
-    /* height: 160px; */
     height: 30px;
     filter: blur(7px);
-  }
+  } */
 
   .triangle-cursor {
     display: none;
