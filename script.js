@@ -39,14 +39,14 @@ document.getElementById("contact-expand").addEventListener("click", (e) => {
 
 // Show work
 const work = [
-  "favicon",
+  "loveishard",
   "fpdb",
   "helpscan",
   "choice",
   "p5js",
   "mooncake",
   "xmass",
-  "loveishard",
+  "favicon",
   // "blank"
 ];
 work.forEach((item) => {
