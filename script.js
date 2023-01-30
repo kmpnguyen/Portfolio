@@ -40,12 +40,12 @@ document.getElementById("contact-expand").addEventListener("click", (e) => {
 // Show work
 const work = [
   "loveishard",
+  "mooncake",
+  "xmass",
   "fpdb",
   "helpscan",
   "choice",
   "p5js",
-  "mooncake",
-  "xmass",
   "favicon",
   // "blank"
 ];
